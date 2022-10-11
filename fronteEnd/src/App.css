@@ -1,0 +1,125 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+.background{
+  width: 100%;
+  /* height: ; */
+}
+.answers{
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+.btn{
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(40, 40, 151, 0.623);
+  border-radius: 33px;
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: 800;
+  /* opacity: 80%; */
+  width:35%;
+  border: 1px solid white;
+  color: white;
+}
+.queCount{
+  text-align: center;
+  padding: 20px;
+  opacity: 80%;
+  color: white;
+  text-shadow: 0 2px black, 0 4px gray ;
+  font-family: 'Ultra', sans-serif;
+}
+body{
+  font-size: xx-large;
+  font-family: monospace;
+  font-weight: 800;
+  color: white;
+}
+.score{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./Commponents/image/img.jpg');
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  text-shadow: 0 2px black, 0 4px gray ;
+  font-family: 'Ultra', sans-serif;
+  font-size: 38px;
+ 
+}
+.result{
+  opacity: 80%;
+  border: 1px solid white;
+  background-color: black;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 30px;
+}
+.background{
+  background-image: url('./Commponents/image/img.jpg');
+  background-attachment: fixed;
+}
+.btn:hover{
+  background-color: gray;
+  color: black;
+  
+  opacity: 80%;
+}
+.questionn{
+  text-align: center;
+  opacity: 80%;
+  width: 100%;
+  text-shadow: 0 2px black, 3px 4px black;
+  font-family: 'Ultra', sans-serif;
+  font-size: 26px;
+}
+.box{
+  border: 1px solid black;
+  width: 60%;
+  background-color: black;
+  opacity: 80%;
+  border-radius: 30px;
+  padding: 30px;
+}
+.btn1{
+  border: none;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 30px;
+  margin-top: 1rem;
+  text-shadow: 0 2px black, 3px 0px black ;
+  font-family: 'Ultra', sans-serif !important;
+  font-size: large;
+  font-weight: 800;
+  opacity: 80%;
+
+}
+.btn1:hover:hover{
+  background: gray;
+  text-shadow: 0 0px black, 0px 0px gray ;
+  color: black;
+  opacity: 80%;
+  border: 1px solid black;
+}
